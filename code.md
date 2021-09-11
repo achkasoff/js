@@ -76,4 +76,5 @@ return response;
 let message = rollDice(a, b);
 console.log(a + " vs " + b + " " + message);
 ```
+From - Class: JavaScript Math Object, Course: Learn JavaScript. Quick Course for Beginners, Platform: BitDegree.
 ------------

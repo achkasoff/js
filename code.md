@@ -1,5 +1,26 @@
 # JS Code
 
+10.09.2021
+### MakeUpperCase
+```
+function makeUpperCase(str) {
+  let string = str.toUpperCase()
+  return string
+}
+```
+--------
+### Grasshopper - Summation
+```
+var summation = function (num) {
+    let totalSum = 0
+    for(let i = 0; i <= num; i++) {
+        totalSum = i + totalSum
+    }
+    return totalSum
+}
+```
+--------
+
 11.09.2021
 ### Condition
 ```

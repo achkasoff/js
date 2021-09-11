@@ -32,3 +32,23 @@ rollDice(9, 7);
 ```
 -------
 
+### Condition (Message)
+```
+let message = (5 == 5) ? 'TRUE' : 'FALSE';
+console.log(message);
+```
+----------
+
+### Randon Number (from 0 to 5)
+
+```
+Math.floor(Math.random() * 5);
+```
+------------
+
+### Randon Number (from 1 to 5)
+
+```
+Math.floor(Math.random() * 5) + 1;
+```
+-----------

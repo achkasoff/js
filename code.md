@@ -52,3 +52,28 @@ Math.floor(Math.random() * 5);
 Math.floor(Math.random() * 5) + 1;
 ```
 -----------
+### Code (Unresolved)
+```
+let a = randomNum(5);
+let b = randomNum(6);
+
+function randomNum(val){
+	return Math.floor(Math.random() * val) + 1;
+}
+
+function rollDice(num1, num2){
+    let response;
+if(num1 > num2){
+  response = "Number 1 wins";
+  }else if(num1 == num2){
+  response = "Tie game";
+  }else{
+  response = "Number 2 wins";
+}
+return response;
+}
+
+let message = rollDice(a, b);
+console.log(a + " vs " + b + " " + message);
+```
+------------

@@ -116,3 +116,18 @@ var summation = function (num) {
 }
 ```
 --------
+09.09.2021
+### if ... else clause 
+```
+const size = 10;
+if (size > 100) {
+  console.log('Big');
+} else if (size > 20) {
+  console.log('Middle');
+} else if (size > 4) {
+  console.log('Small');
+} else { 
+  console.log('Tiny');
+}
+```
+--------

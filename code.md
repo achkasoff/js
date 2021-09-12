@@ -8,6 +8,16 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 console.log(twiceAsOld(64, 32));
 ```
 
+### Multiplication
+```
+function multiplication(a, b) {
+  return a * b;
+}
+let result = multiplication(3, 5);
+console.log(result);
+
+```
+
 11.09.2021
 ### Condition
 ```

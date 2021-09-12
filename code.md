@@ -26,6 +26,13 @@ let day = "Sunday";
 day === "Sunday" ? price - 1 : price + 1;
 ```
 
+### String Interpolation 
+```
+let age = 43;
+let message = `Max is ${age} years old.`;
+console.log(message);
+```
+
 11.09.2021
 ### Condition
 ```

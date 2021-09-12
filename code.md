@@ -1,25 +1,12 @@
 # JS Code
-
-10.09.2021
-### MakeUpperCase
+12.09.2021
+### Twice as old
 ```
-function makeUpperCase(str) {
-  let string = str.toUpperCase()
-  return string
-}
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+	return Math.abs(dadYearsOld - (2 * sonYearsOld));
+	}
+console.log(twiceAsOld(64, 32));
 ```
---------
-### Grasshopper - Summation
-```
-var summation = function (num) {
-    let totalSum = 0
-    for(let i = 0; i <= num; i++) {
-        totalSum = i + totalSum
-    }
-    return totalSum
-}
-```
---------
 
 11.09.2021
 ### Condition
@@ -99,3 +86,23 @@ console.log(a + " vs " + b + " " + message);
 ```
 From - Class: JavaScript Math Object, Course: Learn JavaScript. Quick Course for Beginners, Platform: BitDegree.
 ------------
+10.09.2021
+### MakeUpperCase
+```
+function makeUpperCase(str) {
+  let string = str.toUpperCase()
+  return string
+}
+```
+--------
+### Grasshopper - Summation
+```
+var summation = function (num) {
+    let totalSum = 0
+    for(let i = 0; i <= num; i++) {
+        totalSum = i + totalSum
+    }
+    return totalSum
+}
+```
+--------

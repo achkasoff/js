@@ -18,6 +18,14 @@ console.log(result);
 
 ```
 
+### Ternary Operator 
+```
+let price = 10;
+let day = "Sunday";
+
+day === "Sunday" ? price - 1 : price + 1;
+```
+
 11.09.2021
 ### Condition
 ```

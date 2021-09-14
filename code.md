@@ -1,5 +1,11 @@
 # JS Code
 14.09.2021
+### Math.pow() - Base, Exponent 
+```
+console.log(Math.pow(7, 2));
+// Returns 49
+```
+----------
 ### Interpolation 
 ```
 const nameInput = 'Maxim';

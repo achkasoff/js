@@ -1,14 +1,20 @@
 # JS Code
 14.09.2021
+### Interpolation 
+```
+const nameInput = 'Maxim';
+console.log(`Do you want to eat, ${nameInput}?`);
+```
+----
 ### Concatenation
 ```
 let info = "We couldn't verify you mother's maiden name.";
 let intro = 'Here is important information about your account security.';
 
-let firstName = 'Joffrey ';
-let greeting = 'Hello';
+let firstName = 'Joffrey';
+let greeting = 'Hello, ';
 
-let firstLine = firstName + greeting + "!" + "\n";
+let firstLine = greeting + firstName + "!" + "\n";
 let bodyLetter = intro + "\n" + info;
 
 console.log(firstLine + bodyLetter);

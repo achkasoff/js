@@ -1,5 +1,28 @@
 # JS Code
 14.09.2021
+### Roll Dice
+```
+let response;
+let a = randomNum(5);
+let b = randomNum(6);
+
+function rollDice(num1, num2){
+if(num1 > num2){
+  response = "Number 1 wins";
+  }else if(num1 == num2){
+  response = "Draw";
+  }else{
+  response = "Number 2 wins";
+}
+return response;
+}
+function randomNum(val){
+	return Math.floor(Math.random() * val) + 1;
+}
+let message = rollDice(a, b);
+console.log(a + " vs " + b + " " + message);
+```
+---
 ### Assignment oprators
 ```
 let x = 10 + 5;

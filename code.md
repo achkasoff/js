@@ -1,7 +1,21 @@
 # JS Code
 14.09.2021
+### Concatenation
 ```
+let info = "We couldn't verify you mother's maiden name.";
+let intro = 'Here is important information about your account security.';
+
+let firstName = 'Joffrey ';
+let greeting = 'Hello';
+
+let firstLine = firstName + greeting + "!" + "\n";
+let bodyLetter = intro + "\n" + info;
+
+console.log(firstLine + bodyLetter);
+```
+----------
 ### Currency converter
+```
 let eurosCount = 100;
 let dollarCount = eurosCount * 1.25;
 let rublesCount = dollarCount * 60;

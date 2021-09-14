@@ -1,5 +1,11 @@
 # JS Code
 14.09.2021
+### Math.ceil() To round a number up
+```
+const number = 923.2238;
+console.log(Math.ceil(number));
+```
+-----------
 ### Math.pow() - Base, Exponent 
 ```
 console.log(Math.pow(7, 2));

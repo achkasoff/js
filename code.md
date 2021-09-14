@@ -1,5 +1,15 @@
 # JS Code
 14.09.2021
+### Assignment oprators
+```
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+console.log(x);
+```
+---
 ### Math.ceil() To round a number up
 ```
 const number = 923.2238;

@@ -1,4 +1,14 @@
 # JS Code
+14.09.2021
+```
+### Currency converter
+let eurosCount = 100;
+let dollarCount = eurosCount * 1.25;
+let rublesCount = dollarCount * 60;
+console.log("The price is " + rublesCount + " rubles");
+```
+---------
+
 12.09.2021
 ### Twice as old
 ```

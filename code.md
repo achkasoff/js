@@ -11,7 +11,18 @@ if (birthYear <= 2000) {
   century = 21;
 }
 console.log(century);
+// Other 
+function whatCentury() {
+  let birthYear = document.centuryForm.birthYear.value;
+
+  if (birthYear <= 2000) {
+    document.centuryForm.yourCentury.value = "Your were born in 20th century."
+  } else {
+    document.centuryForm.yourCentury.value = "Your were born in 21th century."
+  }
+}
 ```
+Link https://codepen.io/achkasoff/pen/qBjVNqe
 ---
 ### if ... else structure
 ```

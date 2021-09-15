@@ -1,6 +1,6 @@
 # JS Code
 15.09.2021
-### Concatenation
+### Concatenation / Template literals
 ```
 const firstName = 'Maxim';
 const job = 'teacher';
@@ -10,6 +10,10 @@ const thisYear = 2021;
 
 const maxim = "I'm " + firstName + ", a " + (thisYear - birthYear) + "-year-old " + job + " of " + subject + "!";
 console.log(maxim);
+
+// Template literals
+const maximNew = `I'm ${firstName}, a ${thisYear - birthYear}-year-old ${job} of ${subject}!`;
+console.log(maximNew);
 ```
 ---
 ### Challenge 01 (The Complete JavaScript Course 2021 From Zero to Expert!)

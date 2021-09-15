@@ -25,6 +25,41 @@ let markHigherBMI = bmiMark > bmiJohn;
 console.log(bmiMark, bmiJohn, markHigherBMI); 
 ```
 ---
+### BMI calculation
+```
+function calculateBmi() {
+  // Get numbers from input
+  let weight = document.BMIform.weight.value;
+  let height = document.BMIform.height.value;
+
+  // BMI calculation
+  if(weight > 0 && height > 0){	
+  let totalBmi = weight/(height*height);
+  // Return result in HTML
+  document.BMIform.bmiResult.value = totalBmi.toFixed(2);
+
+  // Condition
+  if(totalBmi < 18.5){
+  document.BMIform.means.value = "Try eating more."
+  }
+    
+  if(totalBmi > 18.5 && totalBmi < 25){
+  document.BMIform.means.value = "You are ok."
+  }
+    
+  if(totalBmi > 25 &&  totalBmi <30){
+  document.techBMI.means.value = "You are a bit overweight."
+  }
+  
+  if(totalBmi > 30){
+  document.BMIform.means.value = "Sorry, but you've got to do something."
+  }
+ } else {
+   alert("Data you've entered might be incorrect. Please check and try again.")
+  }
+}
+```
+---
 
 14.09.2021
 ### Roll Dice

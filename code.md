@@ -1,5 +1,18 @@
 # JS Code
 15.09.2021
+### What century were you born in?
+```
+const birthYear = 2012;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+```
+---
 ### if ... else structure
 ```
 const age = 19;

@@ -1,5 +1,17 @@
 # JS Code
 15.09.2021
+### Concatenation
+```
+const firstName = 'Maxim';
+const job = 'teacher';
+const subject = "Business English";
+const birthYear = 1978;
+const thisYear = 2021;
+
+const maxim = "I'm " + firstName + ", a " + (thisYear - birthYear) + "-year-old " + job + " of " + subject + "!";
+console.log(maxim);
+```
+---
 ### Challenge 01 (The Complete JavaScript Course 2021 From Zero to Expert!)
 ```
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95m tall.

@@ -1,4 +1,31 @@
 # JS Code
+15.09.2021
+### Challenge 01 (The Complete JavaScript Course 2021 From Zero to Expert!)
+```
+// Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95m tall.
+let markMass = 78;
+let markHeight = 1.69;
+let johnMass = 92;
+let johnHeight = 1.95;
+
+let bmiMark = markMass / markHeight ** 2;
+let bmiJohn = johnMass / johnHeight ** 2;
+let markHigherBMI = bmiMark > bmiJohn;
+console.log(bmiMark, bmiJohn, markHigherBMI); 
+
+// Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76m tall.
+let markMass = 95;
+let markHeight = 1.88;
+let johnMass = 85;
+let johnHeight = 1.76;
+
+let bmiMark = markMass / markHeight ** 2;
+let bmiJohn = johnMass / johnHeight ** 2;
+let markHigherBMI = bmiMark > bmiJohn;
+console.log(bmiMark, bmiJohn, markHigherBMI); 
+```
+---
+
 14.09.2021
 ### Roll Dice
 ```

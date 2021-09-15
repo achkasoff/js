@@ -1,5 +1,25 @@
 # JS Code
 15.09.2021
+### if ... else structure
+```
+const age = 19;
+if(age >= 18){
+  console.log("That's ok to learn how to drive");
+} else {
+  console.log("You're too young. Take your time.");
+}
+
+// Other 
+
+const age = 15;
+if(age >= 18){
+  console.log("That's ok to learn how to drive");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`You're too young. Wait for another ${yearsLeft} years.`);
+}
+```
+---
 ### Concatenation / Template literals
 ```
 const firstName = 'Maxim';

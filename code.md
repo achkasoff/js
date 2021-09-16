@@ -1,5 +1,21 @@
 # JS Code
 16.09.2021
+### Fahrenheit vs. Celsius Converter
+```
+  function calculateFc(){
+    let fah = document.temperatureConverter.fahrenheit.value; 
+    const fahCel = (fah - 32) * 5 / 9;
+    document.temperatureConverter.fahrenheitCelsius.value = fahCel.toFixed(2);
+  }
+
+  function calculateCf(){
+    let cel = document.temperatureConverter.celsius.value; 
+    const celFah = cel * 1.8 + 32;
+    document.temperatureConverter.celsiusFahrenheit.value = celFah.toFixed(2);
+  }
+```
+Link - https://codepen.io/achkasoff/pen/bGRaEYx
+---
 ### Kilometers vs. Miles Converter
 ```
   function calculateKmM(){

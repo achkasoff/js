@@ -1,5 +1,25 @@
 # JS Code
 16.09.2021
+### Area of a triangle
+```
+function calculateTriangle() {
+  let side1 = document.triangleArea.side1.value; 
+  let side2 = document.triangleArea.side2.value;  
+  let side3 = document.triangleArea.side3.value;  
+  
+  let sideOne = Number(side1); 
+  let sideTwo = Number(side2); 
+  let sideThree = Number(side3); 
+  
+  // Calculation 
+ 
+   let s = (sideOne + sideOne + sideThree) / 2;
+   let area =  Math.sqrt(s*((s-sideOne)*(s-sideTwo)*(s-sideThree)));
+    document.triangleArea.triangleResult.value = s.toFixed(1);
+  }
+```
+Link - https://codepen.io/achkasoff/pen/jOwaVBr
+---
 ### Condition with comparison
 ```
   if(9 > 3){

@@ -1,5 +1,14 @@
 # JS Code
 16.09.2021
+### Condition with comparison
+```
+  if(9 > 3){
+    console.log('9 is bigger that 3.')
+  } else {
+    console.log('Strange')
+  }
+```
+---
 ### Fahrenheit vs. Celsius Converter
 ```
   function calculateFc(){

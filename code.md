@@ -1,4 +1,23 @@
 # JS Code
+16.09.2021
+### Kilometers vs. Miles Converter
+```
+  function calculateKmM(){
+    let km = document.distanceConverter.kilometres.value; 
+    const conversionFactor = 0.621371;
+    let kmM = km * conversionFactor;
+    document.distanceConverter.kilometresMiles.value = kmM.toFixed(2);
+  }
+
+  function calculateMKm(){
+    let m = document.distanceConverter.miles.value; 
+    const conversionFactor = 0.621371;
+    let mKm = m / conversionFactor; 
+    document.distanceConverter.milesKilometres.value = mKm.toFixed(2);
+  }
+```
+Link - https://codepen.io/achkasoff/pen/ZEyvbmm
+---
 15.09.2021
 ### What century were you born in?
 ```

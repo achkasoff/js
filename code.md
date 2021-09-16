@@ -1,5 +1,12 @@
 # JS Code
 16.09.2021
+### Convert 'string' to 'number' with Number()
+```
+const inputYear = '1991';
+const stringToNumber = Number(inputYear);
+console.log(stringToNumber + 3);
+```
+---
 ### Area of a triangle
 ```
 function calculateTriangle() {

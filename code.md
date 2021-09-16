@@ -1,5 +1,12 @@
 # JS Code
 16.09.2021
+### Convert 'number' to 'string' with String()
+```
+const inputNumber = 1991;
+const numberToString = String(inputYear);
+console.log(numberToString + 3);
+```
+---
 ### Convert 'string' to 'number' with Number()
 ```
 const inputYear = '1991';

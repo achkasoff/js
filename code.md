@@ -7,6 +7,14 @@ console.log(Boolean(undefined));
 console.log(Boolean('Max'));
 console.log(Boolean({}));
 console.log(Boolean(''));
+
+// Example
+const money = 0;
+if (money) {
+	console.log('Good');
+} else {
+	console.log('Find a job');
+}
 ```
 ---
 ### Loop multiply by two

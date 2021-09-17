@@ -1,5 +1,12 @@
 # JS Code
 17.09.2021
+### Equality operator
+```
+const age = 18;
+if (age === 18) console.log('You are grown up!');
+```
+---
+
 ### 5 falsy values: 0, '', undefined, null, NaN
 ```
 console.log(Boolean(0));
@@ -10,10 +17,18 @@ console.log(Boolean(''));
 
 // Example
 const money = 0;
-if (money) {
+if (money) {		// The value (money) will be converted into a Boolean
 	console.log('Good');
 } else {
 	console.log('Find a job');
+}
+
+// Example 
+let height;
+if (height) {
+	console.log('Height is defined');
+} else {
+	console.log('Height is undefined');
 }
 ```
 ---

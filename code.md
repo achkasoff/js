@@ -1,7 +1,20 @@
 # JS Code
 17.09.2021
+### Prompt
+```
+prompt("What is your name?");
+// or
+const yourName = prompt("What is your name?");
+console.log(yourName);
+```
+---
 ### Equality operator
 ```
+/*
+= - assignment
+== - loose equality operator
+=== - strick equality operator 
+*/
 const age = 18;
 if (age === 18) console.log('You are grown up!');
 ```

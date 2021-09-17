@@ -1,5 +1,14 @@
 # JS Code
 17.09.2021
+### 5 falsy values: 0, '', undefined, null, NaN
+```
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Max'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+```
+---
 ### Loop multiply by two
 ```
 for (var i = 2; i < 10000; i *= 2) {

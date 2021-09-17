@@ -1,4 +1,12 @@
 # JS Code
+17.09.2021
+### Loop multiply by two
+```
+for (var i = 2; i < 10000; i *= 2) {
+ console.log(i);
+}
+```
+---
 16.09.2021
 ### Convert 'number' to 'string' with String()
 ```

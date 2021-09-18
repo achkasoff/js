@@ -1,5 +1,22 @@
 # JS Code
 18.09.2021
+### Challenge 03 (The Complete JavaScript Course 2021: From Zero to Expert!)
+```js
+const scoreDolfins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 102) / 3;
+console.log(scoreDolfins, scoreKoalas);
+
+if (scoreDolfins > scoreKoalas && scoreDolfins >= 100) {
+    console.log('Dolfins win');
+} else if (scoreKoalas > scoreDolfins && scoreKoalas >= 100) {
+    console.log('Koalas win');
+} else if (scoreDolfins === scoreKoalas && scoreDolfins >= 100 && scoreKoalas >= 100) {
+    console.log('Both win');
+} else {
+    console.log('No one wins');
+}
+```
+
 ### Logical operators
 ```js
 const a = true;

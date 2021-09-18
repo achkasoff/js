@@ -1,4 +1,27 @@
 # JS Code
+18.09.2021
+### Logical operators
+```js
+const a = true;
+const b = true;
+
+if (a && b) {
+	console.log('Both are true');
+} else {
+	console.log('At least of them is false');
+}
+
+// Other 
+const a = true;
+const b = false;
+
+if (a && b) {
+	console.log('Both are true');
+} else {
+	console.log('At least of them is false');
+}
+```
+
 17.09.2021
 ### Prompt
 ```js

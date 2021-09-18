@@ -6,10 +6,10 @@ prompt("What is your name?");
 // or
 const yourName = prompt("What is your name?");
 console.log(yourName);
-```
+```js
 ---
 ### Equality operator
-```
+```js
 /*
 = - assignment
 == - loose equality operator
@@ -17,11 +17,11 @@ console.log(yourName);
 */
 const age = 18;
 if (age === 18) console.log('You are grown up!');
-```
+```js
 ---
 
 ### 5 falsy values: 0, '', undefined, null, NaN
-```
+```js
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Max'));
@@ -43,32 +43,32 @@ if (height) {
 } else {
 	console.log('Height is undefined');
 }
-```
+```js
 ---
 ### Loop multiply by two
-```
+```js
 for (var i = 2; i < 10000; i *= 2) {
  console.log(i);
 }
-```
+```js
 ---
 16.09.2021
 ### Convert 'number' to 'string' with String()
-```
+```js
 const inputNumber = 1991;
 const numberToString = String(inputYear);
 console.log(numberToString + 3);
-```
+```js
 ---
 ### Convert 'string' to 'number' with Number()
-```
+```js
 const inputYear = '1991';
 const stringToNumber = Number(inputYear);
 console.log(stringToNumber + 3);
-```
+```js
 ---
 ### Area of a triangle
-```
+```js
 function calculateTriangle() {
   let side1 = document.triangleArea.side1.value; 
   let side2 = document.triangleArea.side2.value;  
@@ -84,20 +84,20 @@ function calculateTriangle() {
    let area =  Math.sqrt(s*((s-sideOne)*(s-sideTwo)*(s-sideThree)));
     document.triangleArea.triangleResult.value = s.toFixed(1);
   }
-```
+```js
 Link - https://codepen.io/achkasoff/pen/jOwaVBr
 ---
 ### Condition with comparison
-```
+```js
   if(9 > 3){
     console.log('9 is bigger that 3.')
   } else {
     console.log('Strange')
   }
-```
+```js
 ---
 ### Fahrenheit vs. Celsius Converter
-```
+```js
   function calculateFc(){
     let fah = document.temperatureConverter.fahrenheit.value; 
     const fahCel = (fah - 32) * 5 / 9;
@@ -109,11 +109,11 @@ Link - https://codepen.io/achkasoff/pen/jOwaVBr
     const celFah = cel * 1.8 + 32;
     document.temperatureConverter.celsiusFahrenheit.value = celFah.toFixed(2);
   }
-```
+```js
 Link - https://codepen.io/achkasoff/pen/bGRaEYx
 ---
 ### Kilometers vs. Miles Converter
-```
+```js
   function calculateKmM(){
     let km = document.distanceConverter.kilometres.value; 
     const conversionFactor = 0.621371;
@@ -127,12 +127,12 @@ Link - https://codepen.io/achkasoff/pen/bGRaEYx
     let mKm = m / conversionFactor; 
     document.distanceConverter.milesKilometres.value = mKm.toFixed(2);
   }
-```
+```js
 Link - https://codepen.io/achkasoff/pen/ZEyvbmm
 ---
 15.09.2021
 ### What century were you born in?
-```
+```js
 const birthYear = 2012;
 let century;
 
@@ -152,11 +152,11 @@ function whatCentury() {
     document.centuryForm.yourCentury.value = "Your were born in 21th century."
   }
 }
-```
+```js
 Link https://codepen.io/achkasoff/pen/qBjVNqe
 ---
 ### if ... else structure
-```
+```js
 const age = 19;
 if(age >= 18){
   console.log("That's ok to learn how to drive");
@@ -173,10 +173,10 @@ if(age >= 18){
   const yearsLeft = 18 - age;
   console.log(`You're too young. Wait for another ${yearsLeft} years.`);
 }
-```
+```js
 ---
 ### Concatenation / Template literals
-```
+```js
 const firstName = 'Maxim';
 const job = 'teacher';
 const subject = "Business English";
@@ -189,10 +189,10 @@ console.log(maxim);
 // Template literals
 const maximNew = `I'm ${firstName}, a ${thisYear - birthYear}-year-old ${job} of ${subject}!`;
 console.log(maximNew);
-```
+```js
 ---
 ### Challenge 01 (The Complete JavaScript Course 2021 From Zero to Expert!)
-```
+```js
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95m tall.
 let markMass = 78;
 let markHeight = 1.69;
@@ -214,10 +214,10 @@ let bmiMark = markMass / markHeight ** 2;
 let bmiJohn = johnMass / johnHeight ** 2;
 let markHigherBMI = bmiMark > bmiJohn;
 console.log(bmiMark, bmiJohn, markHigherBMI); 
-```
+```js
 ---
 ### BMI calculation
-```
+```js
 function calculateBmi() {
   // Get numbers from input
   let weight = document.BMIform.weight.value;
@@ -249,12 +249,12 @@ function calculateBmi() {
    alert("Data you've entered might be incorrect. Please check and try again.")
   }
 }
-```
+```js
 ---
 
 14.09.2021
 ### Roll Dice
-```
+```js
 let response;
 let a = randomNum(5);
 let b = randomNum(6);
@@ -274,38 +274,38 @@ function randomNum(val){
 }
 let message = rollDice(a, b);
 console.log(a + " vs " + b + " " + message);
-```
+```js
 ---
 ### Assignment oprators
-```
+```js
 let x = 10 + 5;
 x += 10;
 x *= 4;
 x++;
 x--;
 console.log(x);
-```
+```js
 ---
 ### Math.ceil() To round a number up
-```
+```js
 const number = 923.2238;
 console.log(Math.ceil(number));
-```
+```js
 -----------
 ### Math.pow() - Base, Exponent 
-```
+```js
 console.log(Math.pow(7, 2));
 // Returns 49
-```
+```js
 ----------
 ### Interpolation 
-```
+```js
 const nameInput = 'Maxim';
 console.log(`Do you want to eat, ${nameInput}?`);
-```
+```js
 ----
 ### Concatenation
-```
+```js
 let info = "We couldn't verify you mother's maiden name.";
 let intro = 'Here is important information about your account security.';
 
@@ -316,54 +316,54 @@ let firstLine = greeting + firstName + "!" + "\n";
 let bodyLetter = intro + "\n" + info;
 
 console.log(firstLine + bodyLetter);
-```
+```js
 ----------
 ### Currency converter
-```
+```js
 let eurosCount = 100;
 let dollarCount = eurosCount * 1.25;
 let rublesCount = dollarCount * 60;
 console.log("The price is " + rublesCount + " rubles");
-```
+```js
 ---------
 
 12.09.2021
 ### Twice as old
-```
+```js
 function twiceAsOld(dadYearsOld, sonYearsOld) {
 	return Math.abs(dadYearsOld - (2 * sonYearsOld));
 	}
 console.log(twiceAsOld(64, 32));
-```
+```js
 
 ### Multiplication
-```
+```js
 function multiplication(a, b) {
   return a * b;
 }
 let result = multiplication(3, 5);
 console.log(result);
 
-```
+```js
 
 ### Ternary Operator 
-```
+```js
 let price = 10;
 let day = "Sunday";
 
 day === "Sunday" ? price - 1 : price + 1;
-```
+```js
 
 ### String Interpolation 
-```
+```js
 let age = 43;
 let message = `Max is ${age} years old.`;
 console.log(message);
-```
+```js
 
 11.09.2021
 ### Condition
-```
+```js
 let boolOne = 5 > 3;
 let boolTwo = 5 < 3;
 
@@ -372,10 +372,10 @@ if(boolOne){
   }else{
   console.log("That's wrong");
 }
-```
+```js
 --------
 ### Roll Dice 
-```
+```js
 function rollDice(num1, num2){
 let response;
 if(num1 > num2){
@@ -390,31 +390,31 @@ return response;
 
 rollDice(5, 7);
 rollDice(9, 7);
-```
+```js
 -------
 
 ### Condition (Message)
-```
+```js
 let message = (5 == 5) ? 'TRUE' : 'FALSE';
 console.log(message);
-```
+```js
 ----------
 
 ### Randon Number (from 0 to 5)
 
-```
+```js
 Math.floor(Math.random() * 5);
-```
-------------
+```js
+  
 
 ### Randon Number (from 1 to 5)
 
-```
+```js
 Math.floor(Math.random() * 5) + 1;
-```
+```js
 -----------
 ### Code (Unresolved)
-```
+```js
 let a = randomNum(5);
 let b = randomNum(6);
 
@@ -436,20 +436,20 @@ return response;
 
 let message = rollDice(a, b);
 console.log(a + " vs " + b + " " + message);
-```
+```js
 From - Class: JavaScript Math Object, Course: Learn JavaScript. Quick Course for Beginners, Platform: BitDegree.
-------------
+  
 10.09.2021
 ### MakeUpperCase
-```
+```js
 function makeUpperCase(str) {
   let string = str.toUpperCase()
   return string
 }
-```
+```js
 --------
 ### Grasshopper - Summation
-```
+```js
 var summation = function (num) {
     let totalSum = 0
     for(let i = 0; i <= num; i++) {
@@ -457,11 +457,11 @@ var summation = function (num) {
     }
     return totalSum
 }
-```
+```js
 --------
 09.09.2021
 ### if ... else clause 
-```
+```js
 const size = 10;
 if (size > 100) {
   console.log('Big');
@@ -472,5 +472,5 @@ if (size > 100) {
 } else { 
   console.log('Tiny');
 }
-```
+```js
 --------

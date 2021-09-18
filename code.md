@@ -1,7 +1,7 @@
 # JS Code
 17.09.2021
 ### Prompt
-```
+```js
 prompt("What is your name?");
 // or
 const yourName = prompt("What is your name?");

@@ -28,6 +28,26 @@ switch (day) {
         console.log('Now valid day');
 }
 ```
+Compared to an If Statement
+```js
+const day = 'Monday';
+
+if (day === 'Monday') {
+    console.log('Day one');
+} else if (day === 'Tuesday') {
+    console.log('Day two');
+} else if (day === 'Wednesday') {
+    console.log('Day three');
+} else if (day === 'Thursday') {
+    console.log('Day four');
+} else if (day === 'Friday') {
+    console.log('Day five');
+} else if (day === 'Saturday' || day === 'Sunday') {
+    console.log('It is weekend');
+} else {
+    console.log('Not vaild day');
+}
+```
 From The Complete JavaScript Course 2021: From Zero to Expert!
 
 18.09.2021

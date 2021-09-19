@@ -14,6 +14,16 @@ const age = 17;
 const drink = age >= 18 ? 'wine' : 'cola';
 console.log(drink);
 ```
+Another way of defining it 
+```js
+let drink2;
+if (age >= 18) {
+    drink2 = 'wine';
+} else {
+    drink2 = 'cola';
+}
+console.log(drink2);
+```
 Tasks from The Complete JavaScript Course 2021: From Zero to Expert!
 
 ### Switch Statement

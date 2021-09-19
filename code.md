@@ -1,5 +1,14 @@
 # JS Code
 19.09.2021
+### Ternary Condition
+```js
+const age = 23;
+// Or age = 17;
+
+age >= 18 ? console.log('Yes, you are allowed to come in.') : console.log('No, you are not allowed to enter.');
+```
+Tasks from The Complete JavaScript Course 2021: From Zero to Expert!
+
 ### Switch Statement
 ```js
 const day = 'Monday';

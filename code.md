@@ -1,5 +1,13 @@
 # JS Code
 19.09.2021
+### Tip calculator
+```js
+const bill = 300;
+const tip = bill <= 500 && bill >= 60 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill is ${bill}, the tip is ${tip}, and the total sum is ${bill + tip}`);
+```
+Challenge 04 from The Complete JavaScript Course 2021: From Zero to Expert!
+
 ### Ternary Condition
 ```js
 const age = 23;

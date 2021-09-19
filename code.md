@@ -7,6 +7,13 @@ const age = 23;
 
 age >= 18 ? console.log('Yes, you are allowed to come in.') : console.log('No, you are not allowed to enter.');
 ```
+Other ternary conditional statement
+```js
+const age = 17;
+
+const drink = age >= 18 ? 'wine' : 'cola';
+console.log(drink);
+```
 Tasks from The Complete JavaScript Course 2021: From Zero to Expert!
 
 ### Switch Statement

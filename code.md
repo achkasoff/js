@@ -154,7 +154,7 @@ function calculateTriangle() {
    let area =  Math.sqrt(s*((s-sideOne)*(s-sideTwo)*(s-sideThree)));
     document.triangleArea.triangleResult.value = s.toFixed(1);
   }
-```js
+```
 Link - https://codepen.io/achkasoff/pen/jOwaVBr
   
 ### Condition with comparison

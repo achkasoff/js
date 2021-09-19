@@ -3,7 +3,6 @@
 ### Ternary Condition
 ```js
 const age = 23;
-// Or age = 17;
 
 age >= 18 ? console.log('Yes, you are allowed to come in.') : console.log('No, you are not allowed to enter.');
 ```
@@ -23,6 +22,12 @@ if (age >= 18) {
     drink2 = 'cola';
 }
 console.log(drink2);
+```
+Simplified 
+```js
+const age = 17;
+
+console.log(`I want to drink ${age >= 18 ? 'wine' : 'cola'}`);
 ```
 Tasks from The Complete JavaScript Course 2021: From Zero to Expert!
 

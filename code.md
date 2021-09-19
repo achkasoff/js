@@ -1,4 +1,35 @@
 # JS Code
+19.09.2021
+### Switch Statement
+```js
+const day = 'Monday';
+
+switch (day) {
+    case 'Monday': // day === 'Monday'
+        console.log('Day one');
+        break;
+    case 'Tuesday': 
+        console.log('Day two');
+        break;
+    case 'Wednesday': 
+        console.log('Day three');
+        break;
+    case 'Thursday': 
+        console.log('Day four');
+        break;    
+    case 'Friday': 
+        console.log('Day five');
+        break;   
+    case 'Saturday': 
+    case 'Sunday':
+        console.log('Weekend');
+        break;
+    default:
+        console.log('Now valid day');
+}
+```
+From The Complete JavaScript Course 2021: From Zero to Expert!
+
 18.09.2021
 ### Challenge 03 (The Complete JavaScript Course 2021: From Zero to Expert!)
 ```js
@@ -58,7 +89,6 @@ console.log(yourName);
 const age = 18;
 if (age === 18) console.log('You are grown up!');
 ```
-  
 
 ### 5 falsy values: 0, '', undefined, null, NaN
 ```js
@@ -149,7 +179,7 @@ Link - https://codepen.io/achkasoff/pen/jOwaVBr
     const celFah = cel * 1.8 + 32;
     document.temperatureConverter.celsiusFahrenheit.value = celFah.toFixed(2);
   }
-```js
+```
 Link - https://codepen.io/achkasoff/pen/bGRaEYx
   
 ### Kilometers vs. Miles Converter
@@ -167,7 +197,7 @@ Link - https://codepen.io/achkasoff/pen/bGRaEYx
     let mKm = m / conversionFactor; 
     document.distanceConverter.milesKilometres.value = mKm.toFixed(2);
   }
-```js
+```
 Link - https://codepen.io/achkasoff/pen/ZEyvbmm
   
 15.09.2021
@@ -192,7 +222,7 @@ function whatCentury() {
     document.centuryForm.yourCentury.value = "Your were born in 21th century."
   }
 }
-```js
+```
 Link https://codepen.io/achkasoff/pen/qBjVNqe
   
 ### if ... else structure
@@ -205,7 +235,6 @@ if(age >= 18){
 }
 
 // Other 
-
 const age = 15;
 if(age >= 18){
   console.log("That's ok to learn how to drive");
@@ -291,7 +320,6 @@ function calculateBmi() {
 }
 ```
   
-
 14.09.2021
 ### Roll Dice
 ```js
@@ -331,19 +359,19 @@ console.log(x);
 const number = 923.2238;
 console.log(Math.ceil(number));
 ```
-      --
+
 ### Math.pow() - Base, Exponent 
 ```js
 console.log(Math.pow(7, 2));
 // Returns 49
 ```
-      -
+
 ### Interpolation 
 ```js
 const nameInput = 'Maxim';
 console.log(`Do you want to eat, ${nameInput}?`);
 ```
-  -
+
 ### Concatenation
 ```js
 let info = "We couldn't verify you mother's maiden name.";
@@ -357,7 +385,7 @@ let bodyLetter = intro + "\n" + info;
 
 console.log(firstLine + bodyLetter);
 ```
-      -
+
 ### Currency converter
 ```js
 let eurosCount = 100;
@@ -366,7 +394,6 @@ let rublesCount = dollarCount * 60;
 console.log("The price is " + rublesCount + " rubles");
 ```
       
-
 12.09.2021
 ### Twice as old
 ```js
@@ -374,7 +401,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 	return Math.abs(dadYearsOld - (2 * sonYearsOld));
 	}
 console.log(twiceAsOld(64, 32));
-```js
+```
 
 ### Multiplication
 ```js
@@ -384,7 +411,7 @@ function multiplication(a, b) {
 let result = multiplication(3, 5);
 console.log(result);
 
-```js
+```
 
 ### Ternary Operator 
 ```js
@@ -392,14 +419,14 @@ let price = 10;
 let day = "Sunday";
 
 day === "Sunday" ? price - 1 : price + 1;
-```js
+```
 
 ### String Interpolation 
 ```js
 let age = 43;
 let message = `Max is ${age} years old.`;
 console.log(message);
-```js
+```
 
 11.09.2021
 ### Condition
@@ -413,7 +440,7 @@ if(boolOne){
   console.log("That's wrong");
 }
 ```
-    --
+
 ### Roll Dice 
 ```js
 function rollDice(num1, num2){
@@ -431,20 +458,18 @@ return response;
 rollDice(5, 7);
 rollDice(9, 7);
 ```
-    -
 
 ### Condition (Message)
 ```js
 let message = (5 == 5) ? 'TRUE' : 'FALSE';
 console.log(message);
 ```
-      -
 
 ### Randon Number (from 0 to 5)
 
 ```js
 Math.floor(Math.random() * 5);
-```js
+```
   
 
 ### Randon Number (from 1 to 5)
@@ -452,7 +477,7 @@ Math.floor(Math.random() * 5);
 ```js
 Math.floor(Math.random() * 5) + 1;
 ```
-      --
+
 ### Code (Unresolved)
 ```js
 let a = randomNum(5);
@@ -476,7 +501,7 @@ return response;
 
 let message = rollDice(a, b);
 console.log(a + " vs " + b + " " + message);
-```js
+```
 From - Class: JavaScript Math Object, Course: Learn JavaScript. Quick Course for Beginners, Platform: BitDegree.
   
 10.09.2021
@@ -487,7 +512,7 @@ function makeUpperCase(str) {
   return string
 }
 ```
-    --
+
 ### Grasshopper - Summation
 ```js
 var summation = function (num) {
@@ -498,7 +523,7 @@ var summation = function (num) {
     return totalSum
 }
 ```
-    --
+
 09.09.2021
 ### if ... else clause 
 ```js
@@ -513,4 +538,3 @@ if (size > 100) {
   console.log('Tiny');
 }
 ```
-  --

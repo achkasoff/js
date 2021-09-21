@@ -64,7 +64,7 @@ switch (day) {
         console.log('Weekend');
         break;
     default:
-        console.log('Now valid day');
+        console.log('Not valid day');
 }
 ```
 Compared to an If Statement

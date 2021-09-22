@@ -1,4 +1,11 @@
 # JS Code
+22.09.2021
+### Strict mode
+```js
+'use strict';
+const private = 'Audio';
+```
+
 19.09.2021
 ### Tip calculator
 ```js

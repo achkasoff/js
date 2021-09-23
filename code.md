@@ -20,6 +20,15 @@ const appleJuice = fruitProcess(3, 6);
 console.log(appleJuice);
 ```
 
+### Anonymous Function
+```js
+const calcAge = function (birthYear) {
+	return 2022 - birthYear;
+}
+const age = calcAge(1978);
+console.log(age);
+```
+
 22.09.2021
 ### Strict mode
 ```js

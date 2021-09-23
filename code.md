@@ -1,4 +1,15 @@
 # JS Code
+23.09.2021
+### Function
+```js
+function fruitProcess(apples, oranges) {
+//	console.log(apples, oranges);
+	const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+	return juice;
+}
+fruitProcess(3, 6);
+```
+
 22.09.2021
 ### Strict mode
 ```js

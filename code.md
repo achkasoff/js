@@ -9,6 +9,16 @@ function fruitProcess(apples, oranges) {
 }
 fruitProcess(3, 6);
 ```
+Or
+```js
+function fruitProcess(apples, oranges) {
+//	console.log(apples, oranges);
+	const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+	return juice;
+}
+const appleJuice = fruitProcess(3, 6);
+console.log(appleJuice);
+```
 
 22.09.2021
 ### Strict mode

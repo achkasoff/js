@@ -20,7 +20,7 @@ const appleJuice = fruitProcess(3, 6);
 console.log(appleJuice);
 ```
 
-### Anonymous Function
+### Anonymous Function (e.g. function expression)
 ```js
 const calcAge = function (birthYear) {
 	return 2022 - birthYear;
